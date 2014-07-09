@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 273px;
+        }
+        #Text1
+        {
+            width: 42px;
+        }
+        #year
+        {
+            width: 41px;
+        }
+        #month
+        {
+            width: 42px;
+        }
+        .logo
+        {
+            font-weight:bold;
+            font-size:xx-large;
+        }
+        body
+        {
+            background-color:black;
+            font-family:Bookman Old Style;
+            color:white;
+        
+    </style>
+</head>
+<body>
+
+    <table class="style1">
+        <tr>
+            <td class="logo"><img src="dreamworks-logo.jpg" alt="logo" style="height: 178px; width: 402px" />Welcome To DreamWorks Online Purchase
+                </td>
+        </tr>
+        <tr>
+            <td>
+            <script language="javascript" type="text/javascript">                var currTime = new Date()
+
+               
+
+                var mydate = new Date()
+                var year = mydate.getYear()
+                var day = mydate.getDay()
+                var month = mydate.getMonth()
+                var daym = mydate.getDate()
+                if (year < 1000)
+                    year += 1900
+
+
+
+                // if (daym < 10)
+                //    daym = "0" + daym
+
+                var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
+                            "Friday", "Saturday")
+                var montharray = new Array("January", "February", "March", "April", "May", "June",
+                            "July", "August", "September", "October", "November", "December")
+
+                if (daym == 1 || daym == 21 || daym == 31) {
+                    daym = daym + "<sup>st</sup>"
+                }
+                else {
+                    if (daym == 2 || daym == 22) {
+                        daym = daym + "<sup>nd</sup>"
+                    }
+                    else {
+                        if (daym == 3 || daym == 23) {
+                            daym = daym + "<sup>rd</sup>"
+                        }
+                        else {
+                            daym = daym + "<sup>th</sup>"
+                        }
+                    }
+                }
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Date:" + dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + "</b>")
+
+                var currentTime = new Date()
+                var hours = currentTime.getHours()
+                var minutes = currentTime.getMinutes()
+
+                if (minutes < 10)
+                    minutes = "0" + minutes
+
+                document.write("<b>&nbsp;&nbsp;&nbsp;Time:" + hours + ":" + minutes + " " + "</b>")
+
+</script>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Online Ticket Purchase</td>
+        </tr>
+        <tr>
+            <td><form action="mailto:movietickets@showtime.com" method="post" name="frmMovie" onclick="return doSave();">
+                <table class="style1">
+                    <tr>
+                        <td class="style2">
+                            Select Movie:</td>
+                        <td>
+                        <select name="movie">
+                        <option>--Select One--</option>
+                        <option value="ts3">Toy Story 3</option>
+                        <option value="sfa">Shrek Forever After</option>
+                        <option value="im2">Iron Man 2</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Select Show Time:</td>
+                        <td>
+                            <input id="time" name="time" type="radio" /> 2:30&nbsp;pm
+                            &nbsp;&nbsp;<input id="Radio2" type="radio" name="time" /> 6:30&nbsp;pm
+                            &nbsp;&nbsp;<input id="Radio3" type="radio" name="time"/> 9:30&nbsp;pm</td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Number of tickets:</td>
+                        <td>
+                            <input id="numberoftickets" type="text" name="numberoftickets" /></td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Pay Method:</td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Credit Card:</td>
+                        <td>
+                            <input id="creditcard" name="credit" type="radio" />VISA
+                            &nbsp;&nbsp;<input name="credit" type="radio" />MC
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Card Number:</td>
+                        <td>
+                            <input id="cardnumber" type="text" name="cardnumber" /></td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            Expiry Date (yy / mm):</td>
+                        <td>
+                            <input id="year" type="text" name="year" />
+                            &nbsp;/&nbsp;
+                            <input id="month" type="text" name="month" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            <input id="Submit1" type="submit" value="Purchase Ticket" /></td>
+                        <td>
+                            <input id="Reset1" type="reset" value="Clear Form" /></td>
+                    </tr>
+                </table>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+                <h6 style="text-align:center;color:Gray;">&copy;Copyright Centennial College - COMP229 - Web Design and Development - Fall 2010 - Rajbir kaur - 300586867</h6></td>
+        </tr>
+    </table>
+
+    <script language="javascript" type="text/javascript">
+     <!--
+        function ltrim(varIn) {
+            /*Purpose: Trims the leading spaces from a string*/
+            var varOut = ""
+
+            if (!varIn) {
+                // string is null, so nothing to do
+            }
+            else // string has at least one character
+            {
+                for (intI = 0; intI < varIn.length; intI++) {
+                    if (varIn.charAt(intI) != " ") {
+                        //first non-space char found so return
+                        //string from this character forward
+                        varOut = varIn.substring(intI)
+                        break
+                    }
+                }
+            }
+            return varOut
+        }
+
+        function doSave() {
+
+            var fOk = true
+            var strMsg
+            var ctlSM = document.frmMovie.movie
+            var ctltime1 = document.frmMovie.time
+            var ctlNT = document.frmMovie.numberoftickets
+            var ctlVisa = document.frmMovie.credit
+            var ctlCardN = document.frmMovie.cardnumber
+            var ctlExy = document.frmMovie.year
+            var ctlExm = document.frmMovie.month
+
+            if (ctlSM[ctlSM.selectedIndex].value == "") {
+                fOk = false
+                strMsg = "Please Select a Movie"
+                return false;
+            }
+
+
+
+            else {
+                if ((ltrim(ctlNT.value)).length == 0) {
+                    fOk = false
+                    strMsg = "Please Enter Number of tickets"
+                    ctlNT.focus()
+                }
+
+                else {
+                    if ((ctlNT.value < 1) && (ctlNT.value > 12)) {
+                        fOk = false
+                        strMsg = "Please Enter Only value Between 1 and 12"
+                        ctlNT.focus()
+                    }
+
+                    else {
+                        if ((ltrim(ctlCardN.value)).length == 0) {
+                            fOk = false
+                            strMsg = "Please Enter Card Number"
+                            ctlCardN.focus()
+                        }
+
+                        else {
+                            if ((ltrim(ctlExy.value)).length == 0) {
+                                fOk = false
+                                strMsg = "Please Enter Year"
+                                ctlExy.focus()
+                            }
+                            else {
+                                if ((ctlCardN.value).length > 16) {
+                                    fok = false
+                                    strMsg = "Please Enter Only 16 digit in Card Number"
+                                    ctlExy.focus()
+                                }
+                                else {
+                                    if ((ctlExy.value) < 10 && (ctlExy.value) > 15) {
+                                        fok = false
+                                        strg = "Please Enter value between 10  and 15"
+                                        ctlExy.focus()
+                                    }
+                                    else if ((ctlexm.value) < 1 && (ctlexm.value) > 12) {
+                                        fok = false
+                                        strg = "Please Enter value 1 & 12"
+                                    }
+                                    }
+                                } }
+                        } 
+                    } 
+                } 
+            }
+
+         // If no errors, then submit the form
+                if (fOk) {
+                    return true
+                }
+                else {
+                    alert(strMsg)
+                    return false
+                }
+            
+         }
+   //-->
+
+
+
+    
+    </script>
+<!--Student Name: Rajbir kaur         Student Number:300586867 -->
+</body>
+</html>

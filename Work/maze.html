@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.block1 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    -webkit-animation: maze1 15s; /* Chrome, Safari, Opera */
+    animation: maze1 15s;
+    position: absolute;
+    left:10px;
+    top:60px;
+}
+
+.block2 {
+    width: 300px;
+    height: 300px;
+    background: green;
+    -webkit-animation: maze2 15s; /* Chrome, Safari, Opera */
+    animation: maze2 15s;
+    position: absolute;
+    left:311px;
+    top:60px;
+}
+
+.block3 {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    -webkit-animation: maze3 15s; /* Chrome, Safari, Opera */
+    animation: maze3 15s;
+    position: absolute;
+    left:612px;
+    top:60px;
+}
+
+.block4 {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    -webkit-animation: maze4 15s; /* Chrome, Safari, Opera */
+    animation: maze4 15s;
+    position: absolute;
+    left:913px;
+    top:60px;
+}
+
+.block5 {
+    width: 300px;
+    height: 300px;
+    background: purple;
+    -webkit-animation: maze5 15s; /* Chrome, Safari, Opera */
+    animation: maze5 15s;
+    position: absolute;
+    left:10px;
+    top:361px;
+}
+
+.block6 {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    -webkit-animation: maze4 15s; /* Chrome, Safari, Opera */
+    animation: maze4 15s;
+    position: absolute;
+    left:311px;
+    top:361px;
+}
+
+.block7 {
+    width: 300px;
+    height: 300px;
+    background: cyan;
+    -webkit-animation: maze1 15s; /* Chrome, Safari, Opera */
+    animation: maze1 5s;
+    position: absolute;
+    left:612px;
+    top:361px;
+}
+
+.block8 {
+    width: 300px;
+    height: 300px;
+    background: magenta;
+    -webkit-animation: maze2 15s; /* Chrome, Safari, Opera */
+    animation: maze2 5s;
+    position: absolute;
+    left:913px;
+    top:361px;
+}
+
+.block9 {
+    width: 300px;
+    height: 300px;
+    background: teal;
+    -webkit-animation: maze3 15s; /* Chrome, Safari, Opera */
+    animation: maze3 5s;
+    position: absolute;
+    left:1214px;
+    top:361px;
+}
+
+.block10 {
+    width: 300px;
+    height: 300px;
+    background: skyblue;
+    -webkit-animation: maze5 15s; /* Chrome, Safari, Opera */
+    animation: maze5 5s;
+    position: absolute;
+    left:1214px;
+    top:60px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes maze1 {
+    0%   {background: red;}
+    20%  {background: pink;}
+    40%  {background: blue;}
+    60%  {background: green;}
+    80%  {background: yellow;}
+    100% {background: orange;}
+}
+
+/* Standard syntax */
+@keyframes maze1 {
+     0%   {background: red;}
+    20%  {background: pink;}
+    40%  {background: blue;}
+    60%  {background: green;}
+    80%  {background: yellow;}
+    100% {background: orange;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes maze2 {
+    0%   {background: blue;}
+    20%  {background: green;}
+    40%  {background: cyan;}
+    60%  {background: teal;}
+    80%  {background: purple;}
+    100% {background: red;}
+}
+
+/* Standard syntax */
+@keyframes maze2 {
+     0%   {background: blue;}
+    20%  {background: green;}
+    40%  {background: cyan;}
+    60%  {background: teal;}
+    80%  {background: purple;}
+    100% {background: red;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes maze3 {
+      0%   {background: purple;}
+    20%  {background: red;}
+    40%  {background: yellow;}
+    60%  {background: magenta;}
+    80%  {background: green;}
+    100% {background: blue;}
+}
+
+/* Standard syntax */
+@keyframes maze3 {
+     0%   {background: purple;}
+    20%  {background: red;}
+    40%  {background: yellow;}
+    60%  {background: magenta;}
+    80%  {background: green;}
+    100% {background: blue;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes maze4 {
+    0%   {background: pink;}
+    20%  {background: blue;}
+    40%  {background: red;}
+    60%  {background: purple;}
+    80%  {background: cyan;}
+    100% {background: teal;}
+}
+
+/* Standard syntax */
+@keyframes maze4 {
+    0%   {background: pink;}
+    20%  {background: blue;}
+    40%  {background: red;}
+    60%  {background: purple;}
+    80%  {background: cyan;}
+    100% {background: teal;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes maze5 {
+    0%   {background: green;}
+    20%  {background: orange;}
+    40%  {background: teal;}
+    60%  {background: yellow;}
+    80%  {background: red;}
+    100% {background: magenta;}
+}
+
+/* Standard syntax */
+@keyframes maze5 {
+     0%   {background: green;}
+    20%  {background: orange;}
+    40%  {background: teal;}
+    60%  {background: yellow;}
+    80%  {background: red;}
+    100% {background: magenta;}
+}
+
+</style>
+</head>
+<body>
+
+<h1><i>Welcome to the world of MAZE</i></h1>
+
+
+<div class="block1"></div>
+<div class="block2"></div>
+<div class="block3"></div>
+<div class="block4"></div>
+<div class="block5"></div>
+<div class="block6"></div>
+<div class="block7"></div>
+<div class="block8"></div>
+<div class="block9"></div>
+<div class="block10"></div>
+</body>
+</html>

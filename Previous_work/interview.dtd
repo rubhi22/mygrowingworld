@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT interview (question+)>
+<!ELEMENT question (questiontext,expectedanswer,datecreated,datemodified,qcategory,skillfamilyid,skillfamilyname,qstatus)>
+<!ELEMENT questiontext (#PCDATA)>
+<!ELEMENT expectedanswer (#PCDATA)>
+<!ELEMENT datecreated (#PCDATA)>
+<!ELEMENT datemodified (#PCDATA)>
+<!ELEMENT qcategory (#PCDATA)>
+<!ELEMENT skillfamilyid (#PCDATA)>
+<!ELEMENT skillfamilyname (#PCDATA)>
+<!ELEMENT qstatus (#PCDATA)>
