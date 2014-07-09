@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3D54E3D-5197-4E57-8B12-631FC66F7C11}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebProjectMasterPage</RootNamespace>
+    <AssemblyName>WebProjectMasterPage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="images\aboutus.jpg" />
+    <Content Include="images\addtocart.jpg" />
+    <Content Include="images\contactus.jpg" />
+    <Content Include="images\feedback.jpg" />
+    <Content Include="images\Home.jpg" />
+    <Content Include="images\jewel_26.jpg" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\mensj.jpg" />
+    <Content Include="images\register.jpg" />
+    <Content Include="images\sitemap.jpg" />
+    <Content Include="images\womensj.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="MensJewel.aspx" />
+    <Content Include="Productimages\chain01.jpg" />
+    <Content Include="Productimages\chain02.jpg" />
+    <Content Include="Productimages\chain03.jpg" />
+    <Content Include="Productimages\chain04.jpg" />
+    <Content Include="Productimages\chain05.jpg" />
+    <Content Include="Productimages\chain06.jpg" />
+    <Content Include="Productimages\chain07.jpg" />
+    <Content Include="Productimages\chain08.jpg" />
+    <Content Include="Productimages\chain09.jpg" />
+    <Content Include="Productimages\chain10.jpg" />
+    <Content Include="Productimages\chain11.jpg" />
+    <Content Include="Productimages\chain12.jpg" />
+    <Content Include="Productimages\chain13.jpg" />
+    <Content Include="Productimages\chain14.jpg" />
+    <Content Include="Productimages\chain15.jpg" />
+    <Content Include="Productimages\chainThum01.jpg" />
+    <Content Include="Productimages\chainThum02.jpg" />
+    <Content Include="Productimages\chainThum03.jpg" />
+    <Content Include="Productimages\chainThum04.jpg" />
+    <Content Include="Productimages\chainThum05.jpg" />
+    <Content Include="Productimages\chainThum06.jpg" />
+    <Content Include="Productimages\chainThum07.jpg" />
+    <Content Include="Productimages\chainThum08.jpg" />
+    <Content Include="Productimages\chainThum09.jpg" />
+    <Content Include="Productimages\chainThum10.jpg" />
+    <Content Include="Productimages\chainThum11.jpg" />
+    <Content Include="Productimages\chainThum12.jpg" />
+    <Content Include="Productimages\chainThum13.jpg" />
+    <Content Include="Productimages\chainThum14.jpg" />
+    <Content Include="Productimages\chainThum15.jpg" />
+    <Content Include="Productimages\ear01.jpg" />
+    <Content Include="Productimages\ear02.jpg" />
+    <Content Include="Productimages\ear03.jpg" />
+    <Content Include="Productimages\ear04.jpg" />
+    <Content Include="Productimages\ear05.jpg" />
+    <Content Include="Productimages\ear06.jpg" />
+    <Content Include="Productimages\ear07.jpg" />
+    <Content Include="Productimages\ear08.jpg" />
+    <Content Include="Productimages\ear09.jpg" />
+    <Content Include="Productimages\ear10.jpg" />
+    <Content Include="Productimages\ear11.jpg" />
+    <Content Include="Productimages\ear12.jpg" />
+    <Content Include="Productimages\ear13.jpg" />
+    <Content Include="Productimages\ear14.jpg" />
+    <Content Include="Productimages\ear15.jpg" />
+    <Content Include="Productimages\earThum01.jpg" />
+    <Content Include="Productimages\earThum02.jpg" />
+    <Content Include="Productimages\earThum03.jpg" />
+    <Content Include="Productimages\earThum04.jpg" />
+    <Content Include="Productimages\earThum05.jpg" />
+    <Content Include="Productimages\earThum06.jpg" />
+    <Content Include="Productimages\earThum07.jpg" />
+    <Content Include="Productimages\earThum08.jpg" />
+    <Content Include="Productimages\earThum09.jpg" />
+    <Content Include="Productimages\earThum10.jpg" />
+    <Content Include="Productimages\earThum11.jpg" />
+    <Content Include="Productimages\earThum12.jpg" />
+    <Content Include="Productimages\earThum13.jpg" />
+    <Content Include="Productimages\earThum14.jpg" />
+    <Content Include="Productimages\earThum15.jpg" />
+    <Content Include="Productimages\Gold_01.jpg" />
+    <Content Include="Productimages\Gold_02.jpg" />
+    <Content Include="Productimages\Mixed_Gold_04.jpg" />
+    <Content Include="Productimages\Mixed_Gold_02.jpg" />
+    <Content Include="Productimages\MixedGold_1.jpg" />
+    <Content Include="Productimages\Mixed_Gold_03.jpg" />
+    <Content Include="Productimages\Mixed_Gold_5.jpg" />
+    <Content Include="Productimages\Mixed_Gold_6.jpg" />
+    <Content Include="Productimages\neck01.jpg" />
+    <Content Include="Productimages\neck02.jpg" />
+    <Content Include="Productimages\neck03.jpg" />
+    <Content Include="Productimages\neck04.jpg" />
+    <Content Include="Productimages\neck05.jpg" />
+    <Content Include="Productimages\neck06.jpg" />
+    <Content Include="Productimages\neck07.jpg" />
+    <Content Include="Productimages\neck08.jpg" />
+    <Content Include="Productimages\neck09.jpg" />
+    <Content Include="Productimages\neck10.jpg" />
+    <Content Include="Productimages\neck11.jpg" />
+    <Content Include="Productimages\neck12.jpg" />
+    <Content Include="Productimages\neck13.jpg" />
+    <Content Include="Productimages\neck14.jpg" />
+    <Content Include="Productimages\neck15.jpg" />
+    <Content Include="Productimages\neckThum01.jpg" />
+    <Content Include="Productimages\neckThum02.jpg" />
+    <Content Include="Productimages\neckThum03.jpg" />
+    <Content Include="Productimages\neckThum04.jpg" />
+    <Content Include="Productimages\neckThum05.jpg" />
+    <Content Include="Productimages\neckThum06.jpg" />
+    <Content Include="Productimages\neckThum07.jpg" />
+    <Content Include="Productimages\neckThum08.jpg" />
+    <Content Include="Productimages\neckThum09.jpg" />
+    <Content Include="Productimages\neckThum10.jpg" />
+    <Content Include="Productimages\neckThum11.jpg" />
+    <Content Include="Productimages\neckThum12.jpg" />
+    <Content Include="Productimages\neckThum13.jpg" />
+    <Content Include="Productimages\neckThum14.jpg" />
+    <Content Include="Productimages\neckThum15.jpg" />
+    <Content Include="Productimages\Pink_Black_01.jpg" />
+    <Content Include="Productimages\Pink_Black_02.jpg" />
+    <Content Include="Productimages\tGold_01.jpg" />
+    <Content Include="Productimages\tGold_02.jpg" />
+    <Content Include="Productimages\Tiger_ring.jpg" />
+    <Content Include="Productimages\tMixed_Gold_4.jpg" />
+    <Content Include="Productimages\tMixed_Gold_02.jpg" />
+    <Content Include="Productimages\tMixed_Gold_1.jpg" />
+    <Content Include="Productimages\tMixed_Gold_3.jpg" />
+    <Content Include="Productimages\tMixed_Gold_5.jpg" />
+    <Content Include="Productimages\tMixed_Gold_6.jpg" />
+    <Content Include="Productimages\tPink_Black_01.jpg" />
+    <Content Include="Productimages\tPink_Black_02.jpg" />
+    <Content Include="Productimages\tTiger_ring.jpg" />
+    <Content Include="Productimages\tWhite_Gold_02.jpg" />
+    <Content Include="Productimages\tWhite_Gold_03.jpg" />
+    <Content Include="Productimages\tWhite_Gold_04.jpg" />
+    <Content Include="Productimages\tWhite_Gold_05.jpg" />
+    <Content Include="Productimages\tWhite_Gold_6.jpg" />
+    <Content Include="Productimages\tWhite_Gold01.jpg" />
+    <Content Include="Productimages\tWomen_Gold_1.jpg" />
+    <Content Include="Productimages\tWomen_Gold_10.jpg" />
+    <Content Include="Productimages\tWomen_Gold_11.jpg" />
+    <Content Include="Productimages\tWomen_Gold_2.jpg" />
+    <Content Include="Productimages\tWomen_Gold_3.jpg" />
+    <Content Include="Productimages\tWomen_Gold_4.jpg" />
+    <Content Include="Productimages\tWomen_Gold_5.jpg" />
+    <Content Include="Productimages\tWomen_Gold_6.jpg" />
+    <Content Include="Productimages\tWomen_Gold_8.jpg" />
+    <Content Include="Productimages\tWomen_Gold_9.jpg" />
+    <Content Include="Productimages\tWomen_White_1.jpg" />
+    <Content Include="Productimages\tWomen_White_2.jpg" />
+    <Content Include="Productimages\tWomen_White_3.jpg" />
+    <Content Include="Productimages\tWomen_White_4.jpg" />
+    <Content Include="Productimages\tWomen_White_5.jpg" />
+    <Content Include="Productimages\tWomen_White_7.jpg" />
+    <Content Include="Productimages\watch01.jpg" />
+    <Content Include="Productimages\watch02.jpg" />
+    <Content Include="Productimages\watch03.jpg" />
+    <Content Include="Productimages\watch04.jpg" />
+    <Content Include="Productimages\watch05.jpg" />
+    <Content Include="Productimages\watch06.jpg" />
+    <Content Include="Productimages\watch07.jpg" />
+    <Content Include="Productimages\watch08.jpg" />
+    <Content Include="Productimages\watch09.jpg" />
+    <Content Include="Productimages\watch10.jpg" />
+    <Content Include="Productimages\watch11.jpg" />
+    <Content Include="Productimages\watch12.jpg" />
+    <Content Include="Productimages\watch13.jpg" />
+    <Content Include="Productimages\watch14.jpg" />
+    <Content Include="Productimages\watch15.jpg" />
+    <Content Include="Productimages\watchThum01.jpg" />
+    <Content Include="Productimages\watchThum02.jpg" />
+    <Content Include="Productimages\watchThum03.jpg" />
+    <Content Include="Productimages\watchThum04.jpg" />
+    <Content Include="Productimages\watchThum05.jpg" />
+    <Content Include="Productimages\watchThum06.jpg" />
+    <Content Include="Productimages\watchThum07.jpg" />
+    <Content Include="Productimages\watchThum08.jpg" />
+    <Content Include="Productimages\watchThum09.jpg" />
+    <Content Include="Productimages\watchThum10.jpg" />
+    <Content Include="Productimages\watchThum11.jpg" />
+    <Content Include="Productimages\watchThum12.jpg" />
+    <Content Include="Productimages\watchThum13.jpg" />
+    <Content Include="Productimages\watchThum14.jpg" />
+    <Content Include="Productimages\watchThum15.jpg" />
+    <Content Include="Productimages\White_Gold_02.jpg" />
+    <Content Include="Productimages\White_Gold_03.jpg" />
+    <Content Include="Productimages\White_Gold_04.jpg" />
+    <Content Include="Productimages\White_Gold_05.jpg" />
+    <Content Include="Productimages\White_Gold_6.jpg" />
+    <Content Include="Productimages\White_Gold01.jpg" />
+    <Content Include="Productimages\Women_Gold_1.jpg" />
+    <Content Include="Productimages\Women_Gold_10.jpg" />
+    <Content Include="Productimages\Women_Gold_2.jpg" />
+    <Content Include="Productimages\Women_Gold_3.jpg" />
+    <Content Include="Productimages\Women_Gold_4.jpg" />
+    <Content Include="Productimages\Women_Gold_5.jpg" />
+    <Content Include="Productimages\Women_Gold_6.jpg" />
+    <Content Include="Productimages\Women_Gold_7.gif" />
+    <Content Include="Productimages\Women_Gold_9.jpg" />
+    <Content Include="Productimages\Women_White_1.jpg" />
+    <Content Include="Productimages\Women_White_2.jpg" />
+    <Content Include="Productimages\Women_White_3.jpg" />
+    <Content Include="Productimages\Women_White_4.jpg" />
+    <Content Include="Productimages\Women_White_5.jpg" />
+    <Content Include="Productimages\Women_White_7.jpg" />
+    <Content Include="Productimages\Women_Gold_11.jpg" />
+    <Content Include="Productimages\Women_Gold_8.jpg" />
+    <Content Include="projClass.css" />
+    <Content Include="Registration.aspx" />
+    <Content Include="sitemap.aspx" />
+    <Content Include="Thank_you.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Womensjewel.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MensJewel.aspx.cs">
+      <DependentUpon>MensJewel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensJewel.aspx.designer.cs">
+      <DependentUpon>MensJewel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sitemap.aspx.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitemap.aspx.designer.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Thank_you.aspx.cs">
+      <DependentUpon>Thank_you.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thank_you.aspx.designer.cs">
+      <DependentUpon>Thank_you.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web229Project.Master.cs">
+      <DependentUpon>web229Project.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web229Project.Master.designer.cs">
+      <DependentUpon>web229Project.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Womensjewel.aspx.cs">
+      <DependentUpon>Womensjewel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Womensjewel.aspx.designer.cs">
+      <DependentUpon>Womensjewel.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web229Project.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>47787</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

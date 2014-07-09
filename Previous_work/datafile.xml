@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- Assignment4 Rajbir 300586867 -->
+
+<!DOCTYPE interview SYSTEM "interview.dtd">
+
+<interview>
+	<question>
+		    <questiontext>What is HTML?</questiontext>
+			<expectedanswer>HyperText Markup language</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>Web Based</qcategory>
+			<skillfamilyid>WD</skillfamilyid>
+			<skillfamilyname>Web Developer</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+
+	<question>
+		    <questiontext>What is a tag?</questiontext>
+			<expectedanswer>In HTML, a tag tells the browser what to do</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>Web Based</qcategory>
+			<skillfamilyid>WD</skillfamilyid>
+			<skillfamilyname>Web Developer</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+
+			
+	<question>
+		    <questiontext>What is a Tablespace?</questiontext>
+			<expectedanswer>A database is divided into Logical Storage Unit called tablespaces</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>DataBase</qcategory>
+			<skillfamilyid>DBA</skillfamilyid>
+			<skillfamilyname>DataBase Administrator</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+
+	<question>
+		    <questiontext>What is schema?</questiontext>
+			<expectedanswer>A schema is collection of database objects of a user</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>DataBase</qcategory>
+			<skillfamilyid>DBA</skillfamilyid>
+			<skillfamilyname>DataBase Administrator</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+
+	<question>
+		    <questiontext>What's Java?</questiontext>
+			<expectedanswer>Java is an object-oriented programming language</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>Programming Based</qcategory>
+			<skillfamilyid>JP</skillfamilyid>
+			<skillfamilyname>Java Programmer</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+	<question>
+		    <questiontext>Can you have virtual functions in Java?</questiontext>
+			<expectedanswer>Yes, all functions in Java are virtual by default</expectedanswer>
+			<datecreated>02-aug-2010</datecreated>
+			<datemodified>03-aug-2010</datemodified>
+			<qcategory>Programming Based</qcategory>
+			<skillfamilyid>JP</skillfamilyid>
+			<skillfamilyname>Java Programmer</skillfamilyname>
+			<qstatus>Low Level Beginners</qstatus>
+	</question>
+
+</interview>

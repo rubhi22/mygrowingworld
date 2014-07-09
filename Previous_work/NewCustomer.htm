@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+    <link href="Assignment4Style.css" rel="Stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            width: 166px;
+        }
+        .style2
+        {
+            width: 167px;
+        }
+    </style>
+    </head>
+
+     <body>
+     <img src="logoMain.png" alt="logomain" />
+     <table style="margin-left:20px;">
+     <tr><td></td></tr>
+     <tr><td><img src="icon_cust_infor.png" alt="logo" /></td></tr>
+     <tr><td><h4>Please Enter Your Personal Information:</h4></td></tr>
+     <tr><td><h6><span class="field">*</span>Required Fields</h6></td></tr>
+     <tr><td>
+        
+           
+        
+           <form action="feedback.aspx" method="post" name="frmCustm" onclick="return doSave();">
+                    <table cellpadding="5" cellspacing="0">
+                    
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>First Name:</td>
+                            <td class="style1">
+                             <input id="Text1" name="firstName" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                            <span class="field">*</span>Last Name:</td>
+                            <td class="style1">
+                          <input id="Text2" name="lastName" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                &nbsp;&nbsp;Title:</td>
+                            <td class="style1">
+                                <input id="Text3" name="txtTitle" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Street:</td>
+                            <td class="style1">
+                                <input id="Text4" name="txtStreet" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>City:</td>
+                            <td class="style1">
+                                <input name="txtCity" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Region:</td>
+                            <td class="style1">
+                                <input name="txtRegion" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Postal Code:</td>
+                            <td class="style1">
+                                <input name="postalCode" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Country:</td>
+                            <td class="style1">
+                                <input name="txtCountry" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Phone:</td>
+                            <td class="style1">
+                                <input name="txtPhone" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Email</td>
+                            <td class="style1">
+                                <input name="txtEmail" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                &nbsp;&nbsp;Fax</td>
+                            <td class="style1">
+                                <input name="txtFax" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>UserID:</td>
+                            <td class="style1">
+                                <input name="usedId" type="text" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Password</td>
+                            <td class="style1">
+                                <input name="txtPassword" type="password" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <span class="field">*</span>Confirm Password:</td>
+                            <td class="style1">
+                                <input name="confirmPassword" type="password" style="vertical-align:middle;" /></td>
+                        </tr>
+                        <tr>
+                        <td class="style2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" id="Submit" value="SUBMIT" style="background-color:#0364B4;color:White;font-family:Bookman Old Style;font-weight:bold;"; />
+                        </td>
+                        <td class="style1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="reset" id="Reset" value="RESET" style="background-color:#0364B4;color:White;font-family:Bookman Old Style;font-weight:bold;";/></td>
+                        </tr> 
+
+                        <tr>
+                        <td>
+
+                        </td></tr>
+                    </table></form>
+
+                </td></tr>
+                <tr>
+                <td>
+<h6 style="text-align:center;color:Gray;">&copy;Copyright Centennial College - COMP229 - Web Design and Development - Fall 2010 - Rajbir kaur - 300586867</h6>
+</td></tr>
+     </table>
+       
+
+        <br />
+        <br />
+        <script Language="JavaScript" >
+   <!--
+            function ltrim(varIn) 
+            {
+            /*Purpose: Trims the leading spaces from a string*/
+                var varOut = ""
+
+                if (!varIn) {
+                    // string is null, so nothing to do
+                }
+                else // string has at least one character
+                {
+                    for (intI = 0; intI < varIn.length; intI++) {
+                        if (varIn.charAt(intI) != " ") {
+                            //first non-space char found so return
+                            //string from this character forward
+                            varOut = varIn.substring(intI)
+                            break
+                        }
+                    }
+                }
+                return varOut
+            }
+
+            function doSave() 
+            {   
+            
+                var fOk = true
+                var strMsg
+                var ctlFName = document.frmCustm.firstName
+                var ctlLName = document.frmCustm.lastName
+                var ctlSTreet = document.frmCustm.txtStreet
+                var ctlCity = document.frmCustm.txtCity
+                var ctlRegion = document.frmCustm.txtRegion
+                var ctlPostalcode = document.frmCustm.postalCode
+                var ctlCountry = document.frmCustm.txtCountry
+                var ctlPhone = document.frmCustm.txtPhone
+                var ctlEmail = document.frmCustm.txtEmail
+                var ctlUserid = document.frmCustm.usedId
+                var ctlPassword = document.frmCustm.txtPassword
+                var ctlConpassword = document.frmCustm.confirmPassword
+                ctlFName.focus()
+                if ((ltrim(ctlFName.value)).length == 0) {
+                    fOk = false
+                    strMsg = "Please Enter Your First Name."
+                    ctlFName.focus()
+                }
+                else {
+                    if ((ltrim(ctlLName.value)).length == 0) {
+                        fOk = false
+                        strMsg = "Please Enter Your Last Name."
+                        ctlLName.focus()
+                    }
+                    else {
+                        if ((ltrim(ctlSTreet.value)).length == 0) {
+                            fOk = false
+                            strMsg = "Please Enter Your Street Number."
+                            ctlSTreet.focus()
+                        }
+                        else {
+                            if ((ltrim(ctlCity.value)).length == 0) {
+                                fOk = false
+                                strMsg = "Please Enter Your City."
+                                ctlCity.focus()
+                            }
+                            else {
+                                if ((ltrim(ctlRegion.value)).length == 0) {
+                                    fOk = false
+                                    strMsg = "Please Enter Your Region."
+                                    ctlRegion.focus()
+                                }
+                                else {
+                                    if ((ltrim(ctlPostalcode.value)).length == 0) {
+                                        fOk = false
+                                        strMsg = "Please Enter Your Postal Code."
+                                        ctlPostalcode.focus()
+                                    }
+                                    else {
+                                        if ((ltrim(ctlCountry.value)).length == 0) {
+                                            fOk = false
+                                            strMsg = "Please Enter Your Country."
+                                            ctlCountry.focus()
+                                        }
+                                        else {
+                                            if ((ltrim(ctlPhone.value)).length == 0) {
+                                                fOk = false
+                                                strMsg = "Please Enter Your Phone."
+                                                ctlPhone.focus()
+                                            }
+                                            else {
+                                                if ((ltrim(ctlEmail.value)).length == 0) {
+                                                    fOk = false
+                                                    strMsg = "Please Enter Your Email."
+                                                    ctlEmail.focus()
+                                                }
+                                                else {
+                                                    if ((ltrim(ctlUserid.value)).length == 0) {
+                                                        fOk = false
+                                                        strMsg = "Please Enter Your User ID."
+                                                        ctlUserid.focus()
+                                                    }
+                                                    else {
+                                                        if ((ltrim(ctlPassword.value)).length == 0) {
+                                                            fOk = false
+                                                            strMsg = "Please Enter Your Password."
+                                                            ctlPassword.focus()
+                                                        }
+                                                        else {
+                                                            if ((ltrim(ctlConpassword.value)).length == 0) {
+                                                                fOk = false
+                                                                strMsg = "Please Enter Your password again!"
+                                                                ctlConpassword.focus()
+                                                            }
+                                                            else {
+                                                                if (ctlEmail.value.indexOf("@") == -1
+                                                             || ctlEmail.value.indexOf(".") == -1) {
+                                                                    fOk = false
+                                                                    strMsg = "The entered e-mail address is not " +
+                                                                            "valid.\nE-mail addresses must " +
+                                                                             "be in the form emailid@name.domain"
+                                                                    ctlEmail.focus()
+
+                                                                }
+                                                                else {
+                                                                    if ((ctlPassword.value).length <= 7) {
+                                                                        fOk = false
+                                                                        strMsg = "Password must contain atleast 8 digits"
+                                                                        ctlPassword.value = ""
+                                                                        ctlPassword.focus()
+                                                                    }
+                                                                    else {
+                                                                    
+                                                                        // allow ONLY alphanumeric keys, no symbols or punctuation
+                                                                        // this can be altered for any "checkOK" string you desire
+                                                                        var checkOK = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+                                                                        var checkStr = ctlPassword.value;
+                                                                        var allValid = true;
+                                                                        for (i = 0; i < checkStr.length; i++) {
+                                                                            ch = checkStr.charAt(i);
+                                                                            for (j = 0; j < checkOK.length; j++)
+                                                                                if (ch == checkOK.charAt(j))
+                                                                                    break;
+                                                                            if (j == checkOK.length) {
+                                                                                allValid = false;
+                                                                                break;
+                                                                            }
+                                                                        }
+                                                                        if (!allValid) {
+                                                                            alert("Please enter only letter and numeric characters in the Password field.");
+                                                                            ctlPassword.value = ""
+                                                                            ctlPassword.focus();
+                                                                            return (false);
+                                                                           } 
+
+                                                                        else {
+                                                                            var numChk = /[0-9]/
+                                                                            if (!numChk.test(ctlPassword.value)) 
+                                                                            {
+                                                                                fOk = false
+                                                                                strMsg = "You must add atleast one number to your password"
+                                                                                ctlPassword.value = ""
+                                                                                ctlPassword.focus()
+                                                                            }
+
+                                                                            else {
+                                                                                if ((ctlPassword.value) != (ctlConpassword.value)) {
+                                                                                    fOk = false
+                                                                                    strMsg = "Confirm Password must match with your current password"
+                                                                                    ctlConpassword.value = ""
+                                                                                    ctlConpassword.focus()
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+
+                                                                } 
+                                                            } 
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }  
+           }    
+                
+
+                // If no errors, then submit the form
+                if (fOk) {
+                    return true
+                }
+                else {
+                    alert(strMsg)
+                    return false
+                }
+            
+            }
+   //-->
+   </script>
+</body>
+</html>
