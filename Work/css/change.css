@@ -1,0 +1,25 @@
+body
+{
+	background: lightgray;
+	color: blue;
+}
+div{
+	background: white; 
+	color: green;
+	font-size: 14px;
+	border: 10px white solid;
+	padding: 0px;
+}
+
+.mClass{
+
+	font-size: 24px;
+	background: #F3F781;
+	border: 10px #F3F781 solid;
+}
+
+.gClass{
+	font-size: 18px;
+	background: #F3F781;
+	border: 10px #F3F781 solid;
+}
